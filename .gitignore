@@ -1,0 +1,5 @@
+data/postgresql/*
+!data/postgresql/.gitkeep
+
+data/osm-import/*
+!data/osm-import/.gitkeep

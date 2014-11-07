@@ -1,0 +1,6 @@
+tiles:
+  build: docker/osm-tiles
+  command: startdb startservices
+  volumes:
+    - data/postgresql:/var/lib/postgresql
+    - data/osm-import:/data

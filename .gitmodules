@@ -1,0 +1,3 @@
+[submodule "docker/osm-tiles"]
+	path = docker/osm-tiles
+	url = https://github.com/Bornholm/openstreetmap-tiles-docker
