@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="row full-height">
+    <div id="map" class="col-md-12 full-height"></div>
+  </div>
+{% endblock %}
+
+{% block scripts %}
+  {% parent %}
+  <script src="scripts/map.js"></script>
+{% endblock %}

@@ -4,3 +4,22 @@ tiles:
   volumes:
     - data/postgresql:/var/lib/postgresql
     - data/osm-import:/data
+    - data/tiles:/var/lib/mod_tile
+  ports:
+    - "8080:80"
+app:
+  build: docker/app
+  volumes:
+    - app:/home/node/app
+  ports:
+    - "8888:8888"
+
+#postgis:
+#  build: docker/postgis
+#  volumes:
+#    - data/postgresql:/var/lib/postgresql
+#    - data/osm-import:/data
+#tiles:
+#  build: docker/tiles
+#  volumes:
+#    - data/tiles:/var/lib/mod_tile

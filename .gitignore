@@ -3,3 +3,10 @@ data/postgresql/*
 
 data/osm-import/*
 !data/osm-import/.gitkeep
+
+data/tiles/*
+!data/tiles/.gitkeep
+
+node_modules
+bower_components
+*.log

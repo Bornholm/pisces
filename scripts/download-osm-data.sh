@@ -14,4 +14,5 @@ wget -N http://download.geofabrik.de/${REGION}-latest.osm.pbf.md5
 md5sum -c *.md5
 
 FILE=$(find "${DIR}/../data/osm-import" -name *-latest.osm.pbf)
+rm -f "${DIR}/../data/osm-import/import.pbf"
 ln "${FILE}" "${DIR}/../data/osm-import/import.pbf"
