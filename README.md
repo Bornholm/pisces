@@ -1,16 +1,15 @@
 # Pisces
 
-## Dépendances de développement
+## Environnement de développement
 
-### Environnement de développement
+**Nécessite**
 
-- (Docker)[https://www.docker.com/]
-- (Fig)[http://www.fig.sh/]
+- [Docker](https://www.docker.com/)
+- [Fig](http://www.fig.sh/)
 
 ## Démarrer avec les sources
 
-```
-
+```bash
 # Récupération des sources
 git clone pisces
 cd pisces
@@ -26,5 +25,4 @@ cd pisces
 
 # Lancement des conteneurs
 fig up
-
 ```
