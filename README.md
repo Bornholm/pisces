@@ -1,5 +1,11 @@
 # Pisces
 
+Carte collaborative des parcours de pêche en France
+
+## Ressources
+
+ - [Concept](resources/concept.md)
+
 ## Environnement de développement
 
 **Nécessite**
@@ -11,7 +17,7 @@
 
 ```bash
 # Récupération des sources
-git clone pisces
+git clone https://github.com/bornholm/pisces.git
 cd pisces
 
 # Initialisation du conteneur serveur de tiles

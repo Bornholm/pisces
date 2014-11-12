@@ -1,10 +1,45 @@
 {% extends 'layout.html' %}
 
-{% block content %}
+{% block content -%}
   <div class="row full-height">
-    <div id="map" class="col-md-12 full-height"></div>
+    <div id="map" class="col-md-10 full-height"></div>
+
+    <div id="sidebar" class="col-md-2 full-height">
+
+      <div class="row">
+        <div class="col-md-12">
+          <a class="persona-button pull-right" href="#"><span>Se connecter</span></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <img id="logo" class="pull-left" src="img/logo.svg" />
+          <h1 id="title" class="pull-left clear">Pisces</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <form role="form" method="get">
+            <div class="form-group">
+              <input type="text" class="form-control" name="search" placeholder="Rechercher..." />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="desc" class="col-md-12">
+          <p>Carte collaborative des parcours de pêche en France</p>
+        </div>
+      </div>
+
+    </div>
+
   </div>
-{% endblock %}
+
+{%- endblock %}
 
 {% block scripts %}
   {% parent %}

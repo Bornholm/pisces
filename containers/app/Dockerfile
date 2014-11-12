@@ -3,7 +3,7 @@ MAINTAINER William Petit "william.petit@ptitcloud.fr"
 
 VOLUME /home/node/app
 
-RUN npm install -g bower
+RUN npm install -g bower nodemon
 
 RUN useradd -s /bin/bash node
 
@@ -18,4 +18,4 @@ WORKDIR /home/node/app
 
 EXPOSE 8888
 
-CMD ["node", "index.js"]
+CMD ["nodemon", "index.js"]

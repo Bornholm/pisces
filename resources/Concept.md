@@ -1,4 +1,4 @@
-![Logo](resources/pisces-logo.png)
+![](images/pisces-logo.png)
 
 ## Problématique
 

@@ -1,14 +1,14 @@
 tiles:
-  build: docker/osm-tiles
+  build: containers/osm-tiles
   command: startdb startservices
   volumes:
-    - data/postgresql:/var/lib/postgresql
-    - data/osm-import:/data
-    - data/tiles:/var/lib/mod_tile
+    - volumes/postgresql:/var/lib/postgresql
+    - volumes/osm-import:/data
+    - volumes/tiles:/var/lib/mod_tile
   ports:
     - "8080:80"
 app:
-  build: docker/app
+  build: containers/app
   volumes:
     - app:/home/node/app
   ports:
