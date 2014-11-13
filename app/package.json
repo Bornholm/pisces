@@ -15,6 +15,11 @@
     "serve-static": "~1.7.1",
     "consolidate": "~0.10.0",
     "swig": "~1.4.2",
-    "morgan": "~1.5.0"
+    "morgan": "~1.5.0",
+    "knex": "~0.7.3",
+    "pg": "~3.6.3",
+    "express-error-handler": "~0.6.0",
+    "request-promise": "~0.3.1",
+    "osmtogeojson": "~2.2.1"
   }
 }

@@ -6,4 +6,10 @@
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(Pisces.Map);
 
+  $.getJSON('http://localhost:8888/api/waters', function(data) {
+    L.geoJson(data).addTo(Pisces.Map);
+  });
+
+
+
 }(window.Pisces = window.Pisces || {}));

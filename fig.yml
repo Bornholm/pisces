@@ -7,12 +7,14 @@ tiles:
     - volumes/tiles:/var/lib/mod_tile
   ports:
     - "8080:80"
-app:
-  build: containers/app
+web:
+  build: containers/web
   volumes:
     - app:/home/node/app
   ports:
     - "8888:8888"
+  links:
+    - tiles:postgis
 
 #postgis:
 #  build: docker/postgis
