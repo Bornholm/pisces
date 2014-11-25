@@ -9,12 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="577.37677"
-   height="158.55861"
+   width="494.44525"
+   height="158.55988"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="pisces-logo.svg">
+   sodipodi:docname="pisces-logo.svg"
+   inkscape:export-filename="/home/william/workspace/pisces/resources/images/pisces-logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,15 +28,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="320.81575"
-     inkscape:cy="-102.55427"
+     inkscape:cx="321.0673"
+     inkscape:cy="-93.064052"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="1025"
-     inkscape:window-x="1920"
-     inkscape:window-y="30"
+     inkscape:window-width="1600"
+     inkscape:window-height="850"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -55,7 +58,7 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-50.18345,-95.647203)">
+     transform="translate(-49.931905,-95.645795)">
     <g
        id="g4019"
        transform="matrix(0.98806267,0,0,0.98806267,31.885173,164.23021)"
@@ -64,7 +67,7 @@
        xml:space="preserve"
        id="flowRoot4029"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(2.3120661,0,0,2.3120661,-261.4978,-112.87598)"
+       transform="matrix(2.7216783,0,0,2.7216783,-354.32611,-162.53281)"
        inkscape:export-filename="/home/william/workspace/pisces/resources/pisces-logo.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><flowRegion
@@ -76,7 +79,7 @@
            y="97.768028"
            style="fill:#333333;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara4035"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;fill-opacity:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">PiscesDB</flowPara></flowRoot>    <g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;fill-opacity:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">Pisces</flowPara></flowRoot>    <g
        id="g4271"
        transform="matrix(0.50707581,0,0,0.50707581,34.406674,-31.185531)"
        style="stroke:#333333;stroke-opacity:1"
@@ -218,7 +221,7 @@
        xml:space="preserve"
        id="flowRoot4029-4"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(1.7042221,0,0,1.7042221,-120.84113,41.105889)"
+       transform="matrix(1.319425,0,0,1.319425,-36.712047,88.632953)"
        inkscape:export-filename="/home/william/workspace/pisces/resources/pisces-logo.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><flowRegion
