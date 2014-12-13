@@ -1,7 +1,5 @@
 ![](resources/images/pisces-logo.png)
 
-Carte collaborative des parcours de pêche en France
-
 ## Ressources
 
  - [Concept](resources/concept.md)
