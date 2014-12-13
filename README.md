@@ -2,7 +2,7 @@
 
 ## Ressources
 
- - [Concept](resources/concept.md)
+ - [Concept](resources/Concept.md)
 
 ## Environnement de développement
 
