@@ -1,4 +1,4 @@
-# Pisces
+![](resources/images/pisces-logo.png)
 
 Carte collaborative des parcours de pêche en France
 
